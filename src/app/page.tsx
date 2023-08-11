@@ -1,5 +1,6 @@
 'use client'
 import { Box, Button, Center, Heading, LightMode, Stack, Text } from "@chakra-ui/react";
+import { FaMapPin, FaWhatsapp } from 'react-icons/fa';
 
 export default function Home() {
 
@@ -59,10 +60,10 @@ export default function Home() {
             spacing="4"
           >
             <LightMode>
-              <Button size="lg" colorScheme="green" px="8" fontWeight="bold" fontSize="md" onClick={whatsApp}>
-                whatsapp
+              <Button size="lg" colorScheme="green" px="8" fontWeight="bold" fontSize="md" onClick={whatsApp} leftIcon={<FaWhatsapp/>}>
+                WhatsApp
               </Button>
-              <Button size="lg" colorScheme="whiteAlpha" px="8" fontWeight="bold" fontSize="md" onClick={locationDirection}>
+              <Button size="lg" colorScheme="whiteAlpha" px="8" fontWeight="bold" fontSize="md" onClick={locationDirection} leftIcon={<FaMapPin/>}>
                Direction
               </Button>
             </LightMode>
