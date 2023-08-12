@@ -40,6 +40,7 @@ export default function Home() {
         maxW={{ base: 'xl', md: '5xl' }}
         mx="auto"
         px={{ base: '6', md: '8' }}
+        py="12"
         h="full"
         zIndex={1}
         position="relative"
@@ -49,15 +50,15 @@ export default function Home() {
               letterSpacing="tight">
           Altaf Sewing Machine & Repairing Centre
           </Heading>
-          <Text fontSize="xl" mt="6" maxW="xl" mx="auto" textAlign="justify">
+          <Text fontSize={{ base: 'md', md: 'xl' }} mt="6" maxW="xl" mx="auto" textAlign="justify">
               Altaf Sewing Machine & Repairing Centre is a trusted and reputable provider of sewing machines repair, maintenance and Buy/Sell services with a primary focus on customer satisfaction.
             </Text> 
             <Stack
             justify="center"
             direction={{ base: 'column', md: 'row' }}
             mt="10"
-            mb="20"
-            spacing="4"
+            mb="18"
+            spacing="7"
           >
             <LightMode>
               <Button size="lg" colorScheme="green" px="8" fontWeight="bold" fontSize="md" onClick={whatsApp} leftIcon={<FaWhatsapp/>}>
