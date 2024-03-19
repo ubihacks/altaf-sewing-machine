@@ -10,7 +10,7 @@ export default function Home() {
     
   };
   const whatsApp = () => {
-    window.open("https://wa.me/message/EMMV5IPAIZGJE1", "_blank"); // Opens in a new tab
+    window.open("https://wa.me/message/ELMU6JNQKU2YA1", "_blank"); // Opens in a new tab
     
   };
 
