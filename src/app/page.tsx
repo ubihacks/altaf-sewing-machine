@@ -6,11 +6,12 @@ export default function Home() {
 
 
   const locationDirection = () => {
-    window.open("https://www.google.com/maps/dir/33.8786874,72.5559743/altaf+sewing+machine+%26+repairing+centre/@33.8411472,72.290594,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x38df18157aa1e08d:0x899d79a7a0abf8f6!2m2!1d72.3540338!2d33.7714885?entry=ttu", "_blank"); // Opens in a new tab
+    window.open("https://www.google.com/maps/dir/33.8786874,72.5559743/altaf+sewing+machine+%26+repairing+centre/@33.8411472,72.290594,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x38df18157aa1e08d:0x899d79a7a0abf8f6!2m2!1d72.3540338!2d33.7714885?entry=ttu", 
+      "_blank",  "noopener"); // Opens in a new tab
     
   };
   const whatsApp = () => {
-    window.open("https://wa.me/message/EMMV5IPAIZGJE1", "_blank"); // Opens in a new tab
+    window.open("https://wa.me/message/EMMV5IPAIZGJE1", "_blank", "noopener"); // Opens in a new tab
     
   };
 
